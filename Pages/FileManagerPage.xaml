@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiExcepciones.Pages.FileManagerPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Recursos locales">
+
+    <VerticalStackLayout Padding="16" Spacing="12">
+        <Label Text="Guardar / abrir texto (AppDataDirectory)" FontAttributes="Bold" FontSize="20"/>
+
+        <Entry x:Name="FileNameEntry" Placeholder="Nombre archivo (ej: nota.txt)" Text="nota.txt" />
+        <Editor x:Name="TextEditor" HeightRequest="180" Placeholder="Escribí tu texto aquí..." />
+
+        <HorizontalStackLayout Spacing="8">
+            <Button Text="Guardar" Clicked="OnGuardarClicked"/>
+            <Button Text="Abrir" Clicked="OnAbrirClicked"/>
+            <Button Text="Duplicar archivo" Clicked="OnDuplicarClicked" />
+        </HorizontalStackLayout>
+
+        <Label x:Name="StatusLabel" Text="Estado: -" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiExcepciones", "MauiExcepciones.csproj", "{DFCABD62-F562-49E7-8963-E4136F1D2E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFCABD62-F562-49E7-8963-E4136F1D2E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCABD62-F562-49E7-8963-E4136F1D2E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCABD62-F562-49E7-8963-E4136F1D2E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCABD62-F562-49E7-8963-E4136F1D2E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0F09A8E-DC0C-4D93-A9C7-612F9C52D9AD}
+	EndGlobalSection
+EndGlobal
